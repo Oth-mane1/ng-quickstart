@@ -1,0 +1,25 @@
+<div *ngIf="this.profile">
+  <h1><b class="blue">{{ this.profile.fname }}</b> {{ this.profile.lname }} </h1>
+  <p>{{this.profile.desc}}</p>
+</div>
+<div *ngIf="!this.profile">
+  <h1>Nothig to show here! sorry 🙇‍♂️.</h1>
+</div>
+
+<div *ngIf="this.works">
+  <h1>Some of my <b class="blue">Works</b></h1>
+  <ul *ngIf="this.works">
+    <li *ngFor="let w of works">
+      <a class="site" target="_blank" href="{{ w.url }}">{{ w.pname }}</a>
+      <p>Langs :</p>
+      <ul *ngIf="w.langs">
+        <li *ngFor="let l of w.langs">
+          <p>{{ l }}</p>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+<div *ngIf="!this.works">
+  <h1>There is no work to show here! sorry 🙇‍♂️.</h1>
+</div>

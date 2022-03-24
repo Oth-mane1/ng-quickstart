@@ -1,0 +1,29 @@
+{
+  "profile": {
+    "fname": "Othmane",
+    "lname": "Ouirdy",
+    "desc": "Hi! I'm a full stack web devoloper 👨‍💻"
+  },
+  "works": [
+    {
+      "id": 1,
+      "pname": "Orticle",
+      "langs": ["Html", "Css", "JS", "Node", "Express"],
+      "url" : "https://orticle.herokuapp.com/",
+      "feedbacks": [{
+        "author": "Ghali",
+        "msg": "Just WooW!"
+      }]
+    },
+    {
+      "id": 2,
+      "pname": "Ort Editor",
+      "langs": ["Html", "Css", "JS"],
+      "url" : "https://oth-mane1.github.io/OrticleEditor/Text%20Editor/",
+      "feedbacks": [{
+        "author": "Med",
+        "msg": "My favorite text Editor !!!"
+      }]
+    }
+  ]
+}

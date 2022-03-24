@@ -2,6 +2,11 @@
 
 This is my first Angular project, I applied some basic concepts of angular like routing, databinding, forms.
 
+Available on :
+
+🔗: https://ngquickstart.netlify.app/
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
